@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
+/** ---------------------- GENERAL ---------------------- **/
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom right, #9fc8ea, #e0e0e0);
+  color: #555555;
+  font-size: 1em;
+  font-family: "Quicksand";
+  background-attachment: fixed;
+}
+
+.container {
+  margin-top: 1rem;
+}
+
+/** ---------------------- NAVBAR ---------------------- **/
+
+.navbar {
+  z-index: 1;
+  background: #e6eaee;
+  border-image: linear-gradient(
+    to right,
+    #ffffff,
+    #e5f0f9,
+    #c0dcf4,
+    #a2cff7,
+    #6cb7f8,
+    #4da7f6,
+    #1b90f7,
+    #0185f8
+  );
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+  width: 100%;
+  height: 6.2em;
+}
+
+.navbar-expand {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row nowrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+
+.nav-item {
+  margin-left: 2em;
+  vertical-align: bottom;
+}
+
+.nav-link {
+  font-family: "Quicksand";
+  font-size: 2.25vw;
+  font-weight: bold;
+  color: #727272;
+  text-shadow: 0px 0px 0px #e6e6e6;
+  letter-spacing: 0.15em;
+  margin-top: 0.5em;
+}
+
+.nav-link:hover {
+  color: #aaaaaa;
+}
+
+img.logo {
+  max-height: 7vw;
+}
+
+
+.todo {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.checked {
+  background-color: lime;
+  opacity: 0.2;
+}
